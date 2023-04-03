@@ -1,4 +1,4 @@
-# Weather App
+# Weather App!!!!!
 
 This is a simple weather app that displays the current weather and 5-day forecast for a given location using the OpenWeather API.
 
@@ -24,7 +24,7 @@ This is a simple weather app that displays the current weather and 5-day forecas
 1. Clone the repository or download the ZIP file.
 2. Navigate to the root folder of the app in your terminal.
 3. Install dependencies by running `npm install`.
-4. Create a Api key OpenWeather API key by going to https://openweathermap.org/  the following format: `API_KEY=your_api_key_here`.
+4. Create a Api key OpenWeather API key by going to https://openweathermap.org/ the following format: `API_KEY=your_api_key_here`.
 5. Enter a location in the search box and click the search button to see the current weather and 5-day forecast for that location.
 6. Click the temperature toggle button to switch between Celsius and Fahrenheit temperature units.
 

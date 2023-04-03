@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 13%;
+}
+
+body {
+  background-color: #f2f2f2;
+  padding: 2rem;
+  background-image: url("https://source.unsplash.com/random");
+  font-family: "Open Sans", sans-serif;
+}
+
+.current-weather {
+  background-color: #c2cdef;
+  padding: 1rem;
+  margin-bottom: 0em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-weather p,
+.current-weather img {
+  margin-right: 1rem;
+}
+
+.forecast {
+  background-color: #ece6e6;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  border-radius: 22%;
+}
+
+.search-box {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+label {
+  margin-right: 1rem;
+}
+
+.forecast-table {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.day {
+  font-weight: bold;
+  text-align: center;
+}
+
+.temperature {
+  text-align: center;
+}
+
+.high {
+  color: red;
+}
+
+.low {
+  color: blue;
+}
+
+.icon {
+  text-align: center;
+}
+
+.icon img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  padding: 2px;
+  border-radius: 15%;
+}
+
+.toggle-temp {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border-radius: 25%;
+  margin: 45px;
+}
+
+.copyright {
+  text-align: center;
+  margin: 1em 0;
+  color: #4090be;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 1rem;
+  }
+
+  .current-weather {
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .current-weather p,
+  .current-weather img {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .forecast {
+    padding: 1rem;
+    border-radius: 13%;
+  }
+
+  .search-box {
+    flex-direction: column;
+  }
+
+  .search-box label {
+    margin-bottom: 0.5rem;
+  }
+
+  .forecast-table {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 568px) {
+  body {
+    font-size: 14px;
+  }
+  .current-weather {
+    font-size: 1rem;
+  }
+  .forecast {
+    font-size: 0.8rem;
+  }
+
+  body {
+    padding: 1rem;
+  }
+  .current-weather {
+    padding: 0.5rem;
+  }
+  .forecast {
+    padding: 1rem;
+    margin: 0.5rem;
+  }
+
+  .forecast-table {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

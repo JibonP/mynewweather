@@ -97,6 +97,14 @@ button {
   color: #4090be;
 }
 
+.symobol {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  color: #c5d2d2;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 16px;

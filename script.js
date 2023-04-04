@@ -54,6 +54,8 @@ const forecast = {
         }
       }
     }
+    const locationElem = document.querySelector(".location");
+    locationElem.textContent = data.city.name;
     document.body.style.backgroundImage =
       "url('https://source.unsplash.com/1600x900/?" +
       `${data.city.name}` +

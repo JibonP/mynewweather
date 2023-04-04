@@ -105,6 +105,17 @@ button {
   color: #c5d2d2;
 }
 
+.location {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 16px;
